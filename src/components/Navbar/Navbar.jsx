@@ -42,7 +42,7 @@ const Navbar = () => {
                   <img className='contactenos__whatsAppLogo' src={whatsApp} alt="" />
                   <p>WhatsApp</p>
                 </a>
-                <h1 className='contactenos__correo'>correo@electrionico</h1>
+                <h1 className='contactenos__correo'>correo@electronico</h1>
               </div>
             </li>
 

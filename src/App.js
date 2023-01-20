@@ -17,12 +17,12 @@ function App() {
   return (
     <>
       <Routes >
-        <Route path="/" element={<Home />} >
-          <Route path="/quienes-somos" element={<QuienesSomos/>} />
-          <Route path="/servicios" element={<Servicios/>} />
-          <Route path="/contactenos" element={<Contactenos/>} />
-          <Route path="*" element={<Home/>} />
+        <Route path="/contabilidad" element={<Home />} >
+          <Route path="/contabilidad/quienes-somos" element={<QuienesSomos />} />
+          <Route path="/contabilidad/servicios" element={<Servicios />} />
+          <Route path="/contabilidad/contactenos" element={<Contactenos />} />
         </Route>
+        <Route path="*" element={<Home />} />
       </Routes>
     </>
   );

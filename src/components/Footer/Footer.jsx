@@ -5,13 +5,13 @@ import './Footer.scss'
 const Footer = () => {
     return (
         <div className='footer'>
-            <h3 className='footer__titulo'>Contatenos</h3>
+            <h3 className='footer__titulo'>Contactenos</h3>
             <div>
-                <a href='https://web.whatsapp.com/' target='_blank'  className='contactenos__whatsApp Navbar__link'>
+                <a href='https://web.whatsapp.com/' target='_blank' className='contactenos__whatsApp Navbar__link'>
                     <img className='contactenos__whatsAppLogo' src={whatsApp} alt="" />
                     <p>WhatsApp</p>
                 </a>
-                <h1 className='footer__correo'>correo@electrionico</h1>
+                <h1 className='footer__correo'>correo@electronico</h1>
             </div>
         </div>
     )
