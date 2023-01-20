@@ -12,7 +12,7 @@ const Cabecera = () => {
         <>
             <div className='cabecera'>
                 <div className='cabecera__container'>
-                    <Link className='cabecera__nombreLogo' to="/">
+                    <Link className='cabecera__nombreLogo' to="/contabilidad">
                         <img className='cabecera__logo' src={logo} alt="" />
                         <h3 className='cabecera__nombre' >Nombre Empresa</h3>
                     </Link>
