@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/contabilidade/static/css/main.4a716619.css",
+    "main.js": "/contabilidade/static/js/main.8e84d751.js",
+    "static/media/fondo.jpg": "/contabilidade/static/media/fondo.3378607b85c477c44a6f.jpg",
+    "static/media/reunion-junta-decision.jpg": "/contabilidade/static/media/reunion-junta-decision.c3e9292ee24a9abd362d.jpg",
+    "static/media/reunion-junta-decision.jpeg": "/contabilidade/static/media/reunion-junta-decision.a86dff60a08f4e14e193.jpeg",
+    "static/media/balance.png": "/contabilidade/static/media/balance.f376f8568c27cbe9f407.png",
+    "index.html": "/contabilidade/index.html",
+    "main.4a716619.css.map": "/contabilidade/static/css/main.4a716619.css.map",
+    "main.8e84d751.js.map": "/contabilidade/static/js/main.8e84d751.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4a716619.css",
+    "static/js/main.8e84d751.js"
+  ]
+}
