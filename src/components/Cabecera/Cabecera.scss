@@ -1,0 +1,29 @@
+.cabecera {
+
+    width: 91.65%;
+    padding: 20px 80px;
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+
+
+    &__nombreLogo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        text-decoration: none;
+    }
+
+    &__logo {
+        width: 60px;
+        height: auto;
+    }
+    &__nombre{
+        color: white;
+    }
+
+
+}

@@ -1,0 +1,109 @@
+.Navbar {
+    display: flex;
+
+    &__container {}
+
+    &__ul {
+        padding: 0 10px;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+
+    }
+
+    &__li {
+
+        list-style: none;
+        position: relative;
+
+        &::after {
+            content: '';
+            position: absolute;
+            width: 0px;
+            height: 5px;
+            left: 50%;
+            top: 30px;
+            bottom: 0;
+            background-color: white;
+            transition: all ease-out .3s;
+        }
+
+        &:hover::after {
+            width: 100%;
+            left: 0;
+
+        }
+    }
+
+    &__link {
+
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+
+    }
+}
+
+p {
+    color: white;
+    font-weight: bold;
+}
+
+.contactenos {
+    position: relative;
+    display: flex;
+
+
+    &__container {
+
+        position: absolute;
+        width: 250px;
+        height: 180px;
+        background-color: transparent;
+        top: -150px;
+      
+
+        &::after{
+           
+            content: "";
+            height: 70px;
+            width: 110px;
+            position: absolute;
+            z-index: 2;
+            top: -65px;
+            left: 80px;
+
+        }
+
+        &:hover{
+            top: 0px;
+        }
+
+
+        &:hover {
+
+            width: 250px;
+            height: 180px;
+            top: 59px;
+            left: -90%;
+            padding: 30px;
+            color: white;
+            background-color: gray;
+            transition: 0.5s ease-out;
+        }
+
+    }
+
+    &__whatsApp {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 20px;
+    }
+
+    &__whatsAppLogo {
+        width: 30px;
+    }
+
+
+}

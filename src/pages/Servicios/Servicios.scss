@@ -1,0 +1,44 @@
+.servicios {
+
+    width: 1920px;
+    height: 1080px;
+    display: flex;
+
+    &__container {
+
+        width: 45%;
+        height: 50%;
+        margin: 10%  0 0 10%;
+        background-image: url('./img/reunion-junta-decision.jpeg');
+        background-size: cover;
+        border-radius: 15px;
+        position: relative;
+        z-index: -1;
+    }
+
+    &__infoContainer {
+        position: absolute;
+        width: 75%;
+        height: 75%;
+        background-color: white;
+        top: 30%;
+        left: 60%;
+        border-radius: 15px;
+        padding: 10%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+
+        
+    }
+    &__titulo {
+        font-size: 60px;
+    }
+    &__info{
+        font-size: 30px;
+        color:  gray;
+    }
+
+
+}
