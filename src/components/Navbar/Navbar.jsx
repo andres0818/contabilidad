@@ -9,10 +9,10 @@ const Navbar = () => {
 
   const contenidoNabvar = [
     {
-      link: "/quienes-somos",
+      link: "/contabilidad/quienes-somos",
       nombre: "Quienes somos"
     }, {
-      link: "/servicios",
+      link: "/contabilidad/servicios",
       nombre: "Servicios"
     }
   ]
